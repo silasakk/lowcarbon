@@ -22,7 +22,7 @@ class Types_Information_Controller {
 
 		// special case: layouts active, but not compatible
 		// the only case where we don't show the table
-		if( defined( 'WPDDL_DEVELOPMENT' ) )  {
+		if( defined( 'WPDDL_DEVELOPMENT' ) || defined( 'WPDDL_PRODUCTION' ) )  {
 			$compatible = new Types_Helper_Condition_Layouts_Compatible();
 			if( !$compatible->valid() ) {
 				$data_files = array( TYPES_DATA . '/information/layouts-not-compatible.php' );

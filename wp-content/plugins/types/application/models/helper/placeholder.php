@@ -83,7 +83,7 @@ class Types_Helper_Placeholder {
 		}
 
 		// Layouts specifics
-		if( defined( 'WPDDL_DEVELOPMENT' ) )  {
+		if( defined( 'WPDDL_DEVELOPMENT' ) || defined( 'WPDDL_PRODUCTION' ) )  {
 			$placeholders = array_merge( $placeholders, array(
 				//'%POST-CREATE-LAYOUT-TEMPLATE%'     => self::get_post_create_layout_template(),
 				'%POST-CREATE-LAYOUT-TEMPLATE%'     => $admin_url . 'admin.php?page=types-helper&action=new-layout-template&type='.self::$post_type->name,

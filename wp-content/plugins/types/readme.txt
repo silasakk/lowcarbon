@@ -3,11 +3,11 @@ Contributors: AmirHelzer, brucepearson, christianglingener, jadpm, zaantar
 Donate link: http://wp-types.com
 Tags: CMS, custom field, custom fields, custom post type, custom post types, field, fields post, post type, post types, taxonomies, taxonomy, toolset
 Text Domain: wpcf
-Domain Path: /library/toolset/types/embedded/locale
+Domain Path: /embedded/locale
 License: GPLv2
 Requires at least: 3.7
 Tested up to: 4.5
-Stable tag: 2.0
+Stable tag: 2.0.1
 
 The complete and reliable plugin for managing custom post types, custom taxonomies and custom fields.
 
@@ -150,6 +150,11 @@ Additionally, Types is the only plugin that lets you define parent/child relatio
 9. Bulk editing child content using Field Tables
 
 == Changelog ==
+
+= 2.0.1 =
+
+* Release date: 2016-04-12
+* Fixed issue with information table and Layouts.
 
 = 2.0 =
 

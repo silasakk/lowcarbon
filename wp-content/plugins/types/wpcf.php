@@ -5,7 +5,7 @@
   Description: Toolset Types defines custom content in WordPress. Easily create custom post types, fields and taxonomy and connect everything together.
   Author: OnTheGoSystems
   Author URI: http://www.onthegosystems.com
-  Version: 2.0
+  Version: 2.0.1
  */
 
 // abort if called directly
@@ -14,7 +14,7 @@ if( !function_exists( 'add_action' ) )
 
 // version
 if( ! defined( 'TYPES_VERSION' ) )
-	define( 'TYPES_VERSION', '2.0' );
+	define( 'TYPES_VERSION', '2.0.1' );
 
 // backward compatibility
 if ( ! defined( 'WPCF_VERSION' ) )
