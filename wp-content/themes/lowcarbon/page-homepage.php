@@ -23,6 +23,7 @@ get_header();?>
             <div class="btn btn-top-right">TERM & CONDITION</div>
             <div class="sc-select">
                 <img class="img-social" data-filter=".c-instagram"  src="<?php echo get_template_directory_uri()?>/assets/images/instagram.png" alt="">
+                <img class="img-social" data-filter=".c-facebook"  src="<?php echo get_template_directory_uri()?>/assets/images/facebook.png" alt="">
                 <img class="img-social" data-filter=".c-twitter"   src="<?php echo get_template_directory_uri()?>/assets/images/twitter.png" alt="">
             </div>
 
@@ -76,17 +77,23 @@ get_header();?>
                                 /*
                                  * SOCIAL ICON
                                 */
+
+                                $sc_img = get_field('field_570cb1fca4961');
+                                $up_img = get_field('field_57149ba17c3af') ;
                                 ?>
 
 
 
-                                <img src="<?php echo get_field('field_570cb1fca4961')?>" class="img-avatar" alt="">
+                                <img src="<?php echo ($sc_img) ? $sc_img : $up_img["url"]?>" class="img-avatar" alt="">
 
                                 <?php if(get_field('field_570cb1e0a4960',get_the_ID()) == "instagram") : ?>
                                     <img class="img-social" src="<?php echo get_template_directory_uri()?>/assets/images/instagram.png" alt="">
                                 <?php endif;?>
                                 <?php if(get_field('field_570cb1e0a4960',get_the_ID()) == "twitter") : ?>
                                     <img class="img-social" src="<?php echo get_template_directory_uri()?>/assets/images/twitter.png" alt="">
+                                <?php endif;?>
+                                <?php if(get_field('field_570cb1e0a4960',get_the_ID()) == "facebook") : ?>
+                                    <img class="img-social" src="<?php echo get_template_directory_uri()?>/assets/images/facebook.png" alt="">
                                 <?php endif;?>
 
 
