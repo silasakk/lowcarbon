@@ -11,7 +11,19 @@
 
 ?>
 
+<div class="gp">
+	<img src="<?php echo get_template_directory_uri()?>/assets/images/bottom-web.jpg" class="gp-foot" alt="">
+</div>
 
+<div class="footer">
+	<div class="container">
+		<div class="relative">
+			<img class="l1" src="<?php echo get_template_directory_uri()?>/assets/images/logo.png" alt="">
+			<img class="l2" src="<?php echo get_template_directory_uri()?>/assets/images/logo2.png" alt="">
+			<div class="cp">Copyright - 2016  www.lowcarbondestination.com | All Rights Reserved</div>
+		</div>
+	</div>
+</div>
 
 <?php wp_footer(); ?>
 

@@ -161,6 +161,62 @@ a {
 .relative {
   position: relative; }
 
+.archive-panel {
+  min-height: 700px;
+  background: #eff3f5;
+  padding: 40px 0; }
+  .archive-panel h1 {
+    color: #15466d;
+    margin-bottom: 40px; }
+  .archive-panel .title {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold; }
+  .archive-panel .bot-2 {
+    padding: 0 10px; }
+  .archive-panel .ddate {
+    color: #666; }
+  .archive-panel .btn {
+    float: right; }
+
+.single-panel {
+  min-height: 700px;
+  float: left;
+  width: 100%;
+  background: #eff3f5;
+  padding: 40px 0; }
+  .single-panel img {
+    max-width: 100%;
+    height: auto; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.pagination {
+  display: inline-block;
+  float: right;
+  margin-right: 10px; }
+  .pagination .page-numbers {
+    padding: 10px;
+    border: 1px solid #15466d;
+    background: #fff; }
+  .pagination .current {
+    background: #15466d;
+    color: #fff; }
+
 @media (min-width: 768px) {
   .effect7 {
     position: relative;

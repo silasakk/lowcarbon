@@ -19,6 +19,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/main.css">
+    <link href="<?php echo get_template_directory_uri()?>/assets/images/favicon.ico" rel="icon" type="image/x-icon">
 
     <?php wp_head(); ?>
 </head>
@@ -34,9 +35,9 @@
             <a href="javascript:;" onclick="$('.nav-menu-list').slideToggle()" class="menu-mobile"><img src="<?php echo get_template_directory_uri()?>/assets/images/round.png" alt=""></a>
             <div class="clearfix"></div>
             <ul class="nav-menu-list">
-                <li><a href="">Home</a></li>
+                <li><a href="<?php echo site_url();?>">Home</a></li>
                 <li><a href="">Experience</a></li>
-                <li><a href="">News & Activity</a></li>
+                <li><a href="<?php echo site_url('activity')?>">News & Activity</a></li>
                 <li><a href="">Youtube</a></li>
                 <li><a href="">Contact Us & About Us</a></li>
             </ul>
