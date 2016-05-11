@@ -317,5 +317,3 @@ function get_tw($tag="#CivilWar",$next_results=""){
 		return true;
 	}
 }
-
-//set_post_thumbnail_size( 50, 50, array( 'center', 'center')  );
