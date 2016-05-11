@@ -27,11 +27,20 @@ get_header(); ?>
             <?php endif; ?>
 
         </div>
-        <div class="videoWrapper">
-            <?php echo get_field('embed')?>
+        <div class="col-sm-6">
+            <div class="videoWrapper">
+                <?php echo get_field('embed')?>
+            </div>
         </div>
+        <div class="col-sm-6">
+            <div class="videoWrapper">
+                <?php echo get_field('embed2')?>
+            </div>
+        </div>
+        <div class="clearfix"></div>
         <br>
         <br>
+
         <div class="col-sm-4 col-sm-offset-4">
             <a class="btn btn-top-left">กิจกรรมดึง #</a>
             <a class="btn btn-top-right">About Us</a>

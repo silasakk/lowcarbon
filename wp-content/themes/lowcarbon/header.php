@@ -39,7 +39,7 @@
                 <li><a href="">Experience</a></li>
                 <li><a href="<?php echo site_url('activity')?>">News & Activity</a></li>
                 <li><a href="">Youtube</a></li>
-                <li><a href="">Contact Us & About Us</a></li>
+                <li><a href="<?php echo site_url('contact') ?>">Contact Us & About Us</a></li>
             </ul>
 
 
