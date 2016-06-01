@@ -189,6 +189,48 @@ function wp_exist_link($title_str) {
 	 $result = $wpdb->get_row($sql);
     return $result;
 }
+function add_fb(){
+	global $wpdb;
+
+
+	$sql = "SELECT * FROM fb_log order by id desc limit 1";
+	$result = $wpdb->get_results($sql);
+	
+	$json = json_decode($result[0]->data);
+	
+	foreach($json as $value){
+		
+	
+		$check = wp_exist_link($value->link);
+		if(!$check){
+			
+					$my_post = array(
+						'post_title'    => wp_strip_all_tags( mb_substr(urldecode($value->title),0,100) ),
+						'post_content'    => wp_strip_all_tags( urldecode($value->title) ),
+						'post_status'   => 'publish',
+						'post_author'   => 1,
+						'post_type'    => 'social_feed'
+					);
+					
+		
+		
+					 $post_id = wp_insert_post( $my_post );
+	
+	
+					if(isset($value->image)){
+						Generate_Featured_Image($value->image,$post_id);
+					}
+		
+					update_field("username", urldecode($value->username), $post_id);
+					update_field("link_ex", $value->link,$post_id) ;
+					update_field("created", date("Y-m-d H:i:s"), $post_id) ;
+					update_field("social_type", "facebook", $post_id) ;
+					update_field("avatar", $value->avatar , $post_id) ;
+			}
+		
+	}
+}
+
 
 function get_ig($tag= "CivilWar" ,$max_id=false)
 {
@@ -317,3 +359,7 @@ function get_tw($tag="#CivilWar",$next_results=""){
 		return true;
 	}
 }
+
+add_image_size( 'custom-size', 300, 300, array( 'center', 'center') );
+
+//set_post_thumbnail_size( 50, 50, array( 'center', 'center')  );

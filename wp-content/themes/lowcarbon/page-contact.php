@@ -15,50 +15,76 @@
 get_header();?>
     <style>
 
-        h2{
-            font-family:mister;
-        }
+
         .wpcf7-form-control{
             width: 100%;
+            border:1px solid #39688b;
         }
         .section-contact{
             line-height: 180%;
-            padding: 50px;
-            background: #fff;
-            float:left;
+            padding: 15px;
+            word-wrap: break-word;
+            color: #022840
         }
         textarea{
             height: 100px;
         }
+        .img-responsive{
+            width: 100%;
+            height:auto;
+        }
     </style>
-<div class="container">
+<div class="container section">
+    <div class="banner effect7">
+        <?php
+
+        $image = get_field('banner',668);
+
+        if( !empty($image) ): ?>
+
+            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive" />
+
+        <?php endif; ?>
+
+    </div>
     <div class="section-contact">
 
-        <div class="about-con" >
-            <h2>ABOUT US</h2>
 
-            <?php
-            $image = get_field('banner_con');
-            ?>
+        <div class="sc">
+            <a href="https://www.facebook.com/lcd.chang.mak.kood/?fref=ts"><img src="<?php echo get_template_directory_uri()?>/assets/images/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/lowcarbondestination/"><img src="<?php echo get_template_directory_uri()?>/assets/images/instagram.png" alt=""></a>
+            <a href="https://www.youtube.com/user/LowcarbonDestinatio"><img src="<?php echo get_template_directory_uri()?>/assets/images/youtube.png" alt=""></a>
+            <a href="http://lowcarbondestination.blogspot.com/"><img src="<?php echo get_template_directory_uri()?>/assets/images/blog.png" alt=""></a>
 
-            <img src="<?php echo $image['url'] ?>" class="img-responsive">
-            <br>
-            <p style="margin-bottom: 20px;">
-                <?php the_field('about_us') ?>
-            </p>
+        </div>
 
-            <div class="col-sm-6">
+        <div class="box">
+            <div class="about-con" >
 
-                <h2>ADDRESS</h2>
 
-                <?php the_field('address') ?>
+                <?php
+                $image = get_field('banner_con');
+                ?>
+
+                <img src="<?php echo $image['url'] ?>" class="img-responsive">
+                <br>
+                <div style="margin-bottom: 20px;">
+                    <?php the_field('about_us') ?>
+                </div>
+
+                <div class="col-sm-6">
+
+                    <h6>ADDRESS</h6>
+
+                    <?php the_field('address') ?>
+
+                </div>
+                <div class="col-sm-6">
+                    <h6>CONTACT</h6>
+                    <?php echo do_shortcode('[contact-form-7 id="711" title="Contact form 1"]') ?>
+                </div>
 
             </div>
-            <div class="col-sm-6">
-                <h2>CONTACT</h2>
-                <?php echo do_shortcode('[contact-form-7 id="711" title="Contact form 1"]') ?>
-            </div>
-
         </div>
 
     </div>
