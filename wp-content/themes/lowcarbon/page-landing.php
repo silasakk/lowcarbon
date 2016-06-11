@@ -104,8 +104,8 @@ get_header(); ?>
             <div class="col-sm-12">
                 <div class="box">
                     <div class="row">
-                        <div class="col-sm-5">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/images/intro3-left.jpg" class="img-responsive"  alt="">
+                        <div class="col-sm-5 text-center">
+                            <img style="display: inline-block" src="<?php echo get_template_directory_uri()?>/assets/images/intro3-left.jpg" class="img-responsive"  alt="">
                         </div>
                         <div class="col-sm-7">
                             <p>
