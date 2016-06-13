@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49cb7a34-7301-42db-b679-1025cd1d97f4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/m1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/m2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/m3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/m4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/m5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/m6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/m7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/m8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/t1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-activity.php" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-activity.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.scss" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-contact.php" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-homepage.php" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-homepage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-landing.php" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-landing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/lowcarbon/single-activity.php" afterPath="$PROJECT_DIR$/wp-content/themes/lowcarbon/single-activity.php" />
     </list>
     <ignored path="lowcarbon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,173 +44,111 @@
     <favorites_list name="lowcarbon" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56317204">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="page-landing.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-landing.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.24287343">
-                  <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="author.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/author.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#2839#2952#0#PHP" expanded="false" />
-                    <element signature="e#3013#4334#0#PHP" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page-homepage.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-homepage.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="archive-experience.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-experience.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="70" column="110" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="151" />
-                  <folding>
-                    <element signature="e#2519#2599#0#PHP" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="archive-activity.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-activity.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="archive-youtube.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-youtube.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="37" column="155" selection-start-line="37" selection-start-column="155" selection-end-line="37" selection-end-column="155" />
-                  <folding>
-                    <element signature="e#1347#1418#0#PHP" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5587229">
-                  <caret line="377" column="17" selection-start-line="377" selection-start-column="17" selection-end-line="377" selection-end-column="17" />
-                  <folding>
-                    <element signature="e#11#383#0" expanded="false" />
-                    <element signature="e#395#773#0" expanded="false" />
-                    <element signature="e#780#807#0" expanded="false" />
-                    <element signature="e#822#1025#0" expanded="false" />
-                    <element signature="e#1041#1101#0" expanded="false" />
-                    <element signature="e#1110#1156#0" expanded="false" />
-                    <element signature="e#1162#1386#0" expanded="false" />
-                    <element signature="e#1362#1384#0" expanded="false" />
-                    <element signature="e#1391#1552#0" expanded="false" />
-                    <element signature="e#1450#1518#0" expanded="false" />
-                    <element signature="e#1484#1514#0" expanded="false" />
-                    <element signature="e#1525#1550#0" expanded="false" />
-                    <element signature="e#1563#1869#0" expanded="false" />
-                    <element signature="e#1595#1867#0" expanded="false" />
-                    <element signature="e#1642#1863#0" expanded="false" />
-                    <element signature="e#1770#1818#0" expanded="false" />
-                    <element signature="e#1827#1857#0" expanded="false" />
-                    <element signature="e#1879#1971#0" expanded="false" />
-                    <element signature="e#1975#2000#0" expanded="false" />
-                    <element signature="e#2009#2105#0" expanded="false" />
-                    <element signature="e#2112#2323#0" expanded="false" />
-                    <element signature="e#2236#2321#0" expanded="false" />
-                    <element signature="e#2331#2379#0" expanded="false" />
-                    <element signature="e#2383#2402#0" expanded="false" />
-                    <element signature="e#2406#2425#0" expanded="false" />
-                    <element signature="e#2429#2485#0" expanded="false" />
-                    <element signature="e#2498#2549#0" expanded="false" />
-                    <element signature="e#2552#2630#0" expanded="false" />
-                    <element signature="e#2579#2628#0" expanded="false" />
-                    <element signature="e#2639#2687#0" expanded="false" />
-                    <element signature="e#2697#2804#0" expanded="false" />
-                    <element signature="e#2814#2841#0" expanded="false" />
-                    <element signature="e#2855#2931#0" expanded="false" />
-                    <element signature="e#2940#3047#0" expanded="false" />
-                    <element signature="e#3060#3085#0" expanded="false" />
-                    <element signature="e#3098#3259#0" expanded="false" />
-                    <element signature="e#3270#3313#0" expanded="false" />
-                    <element signature="e#3323#3348#0" expanded="false" />
-                    <element signature="e#3360#3379#0" expanded="false" />
-                    <element signature="e#3560#3664#0" expanded="false" />
-                    <element signature="e#3673#3699#0" expanded="false" />
-                    <element signature="e#3964#4007#0" expanded="false" />
-                    <element signature="e#4024#4120#0" expanded="false" />
-                    <element signature="e#4142#4219#0" expanded="false" />
-                    <element signature="e#4231#4449#0" expanded="false" />
-                    <element signature="e#4311#4387#0" expanded="false" />
-                    <element signature="e#4398#4447#0" expanded="false" />
-                    <element signature="e#4453#4552#0" expanded="false" />
-                    <element signature="e#4498#4550#0" expanded="false" />
-                    <element signature="e#4781#4871#0" expanded="false" />
-                    <element signature="e#4877#4932#0" expanded="false" />
-                    <element signature="e#4951#4992#0" expanded="false" />
-                    <element signature="e#5001#5108#0" expanded="false" />
-                    <element signature="e#5117#5260#0" expanded="false" />
-                    <element signature="e#5207#5258#0" expanded="false" />
-                    <element signature="e#5271#5551#0" expanded="false" />
-                    <element signature="e#5322#5461#0" expanded="false" />
-                    <element signature="e#5421#5457#0" expanded="false" />
-                    <element signature="e#5471#5548#0" expanded="false" />
-                    <element signature="e#5761#5827#0" expanded="false" />
-                    <element signature="e#5843#5897#0" expanded="false" />
-                    <element signature="e#6370#6467#0" expanded="false" />
-                    <element signature="e#6475#6536#0" expanded="false" />
-                    <element signature="e#6561#6669#0" expanded="false" />
-                    <element signature="e#6706#6895#0" expanded="false" />
-                    <element signature="e#6915#6990#0" expanded="false" />
-                    <element signature="e#7048#7075#0" expanded="false" />
-                    <element signature="e#7168#7623#0" expanded="false" />
-                    <element signature="e#7250#7617#0" expanded="false" />
-                    <element signature="e#7422#7503#0" expanded="false" />
-                    <element signature="e#7524#7564#0" expanded="false" />
-                    <element signature="e#7575#7609#0" expanded="false" />
-                    <element signature="e#7635#7684#0" expanded="false" />
-                    <element signature="e#7701#7747#0" expanded="false" />
-                    <element signature="e#7763#7808#0" expanded="false" />
-                    <element signature="e#7814#7840#0" expanded="false" />
-                    <element signature="e#7850#7878#0" expanded="false" />
-                    <element signature="e#7884#7944#0" expanded="false" />
-                    <element signature="e#7950#8010#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="page-landing.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-landing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="153" column="34" selection-start-line="153" selection-start-column="34" selection-end-line="153" selection-end-column="34" />
+              <folding>
+                <element signature="e#7523#7624#0#PHP" expanded="false" />
+                <element signature="e#7721#8870#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31242874">
+              <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+              <folding>
+                <element signature="e#11#383#0" expanded="false" />
+                <element signature="e#860#1063#0" expanded="false" />
+                <element signature="e#1079#1139#0" expanded="false" />
+                <element signature="e#1148#1194#0" expanded="false" />
+                <element signature="e#1200#1424#0" expanded="false" />
+                <element signature="e#1400#1422#0" expanded="false" />
+                <element signature="e#1429#1590#0" expanded="false" />
+                <element signature="e#1488#1556#0" expanded="false" />
+                <element signature="e#1522#1552#0" expanded="false" />
+                <element signature="e#1563#1588#0" expanded="false" />
+                <element signature="e#1808#1856#0" expanded="false" />
+                <element signature="e#1865#1895#0" expanded="false" />
+                <element signature="e#1917#2009#0" expanded="false" />
+                <element signature="e#2013#2038#0" expanded="false" />
+                <element signature="e#2047#2143#0" expanded="false" />
+                <element signature="e#2150#2361#0" expanded="false" />
+                <element signature="e#2274#2359#0" expanded="false" />
+                <element signature="e#2369#2417#0" expanded="false" />
+                <element signature="e#2421#2440#0" expanded="false" />
+                <element signature="e#2444#2463#0" expanded="false" />
+                <element signature="e#2467#2523#0" expanded="false" />
+                <element signature="e#2536#2587#0" expanded="false" />
+                <element signature="e#2590#2668#0" expanded="false" />
+                <element signature="e#2617#2666#0" expanded="false" />
+                <element signature="e#2677#2725#0" expanded="false" />
+                <element signature="e#2735#2842#0" expanded="false" />
+                <element signature="e#2852#2879#0" expanded="false" />
+                <element signature="e#2893#2969#0" expanded="false" />
+                <element signature="e#2978#3085#0" expanded="false" />
+                <element signature="e#3098#3123#0" expanded="false" />
+                <element signature="e#3136#3297#0" expanded="false" />
+                <element signature="e#3308#3351#0" expanded="false" />
+                <element signature="e#3361#3386#0" expanded="false" />
+                <element signature="e#3398#3417#0" expanded="false" />
+                <element signature="e#3598#3702#0" expanded="false" />
+                <element signature="e#3711#3737#0" expanded="false" />
+                <element signature="e#4002#4045#0" expanded="false" />
+                <element signature="e#4062#4158#0" expanded="false" />
+                <element signature="e#4180#4257#0" expanded="false" />
+                <element signature="e#4269#4487#0" expanded="false" />
+                <element signature="e#4349#4425#0" expanded="false" />
+                <element signature="e#4436#4485#0" expanded="false" />
+                <element signature="e#4491#4590#0" expanded="false" />
+                <element signature="e#4536#4588#0" expanded="false" />
+                <element signature="e#4819#4909#0" expanded="false" />
+                <element signature="e#4915#4970#0" expanded="false" />
+                <element signature="e#4989#5030#0" expanded="false" />
+                <element signature="e#5039#5146#0" expanded="false" />
+                <element signature="e#5245#5296#0" expanded="false" />
+                <element signature="e#5309#5589#0" expanded="false" />
+                <element signature="e#5360#5499#0" expanded="false" />
+                <element signature="e#5459#5495#0" expanded="false" />
+                <element signature="e#5509#5586#0" expanded="false" />
+                <element signature="e#5886#5940#0" expanded="false" />
+                <element signature="e#6413#6510#0" expanded="false" />
+                <element signature="e#6518#6579#0" expanded="false" />
+                <element signature="e#6604#6712#0" expanded="false" />
+                <element signature="e#6749#6938#0" expanded="false" />
+                <element signature="e#6958#7033#0" expanded="false" />
+                <element signature="e#7091#7118#0" expanded="false" />
+                <element signature="e#7566#7606#0" expanded="false" />
+                <element signature="e#7617#7651#0" expanded="false" />
+                <element signature="e#7677#7726#0" expanded="false" />
+                <element signature="e#7743#7789#0" expanded="false" />
+                <element signature="e#7805#7850#0" expanded="false" />
+                <element signature="e#7856#7882#0" expanded="false" />
+                <element signature="e#7892#7920#0" expanded="false" />
+                <element signature="e#7926#7986#0" expanded="false" />
+                <element signature="e#7992#8052#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-activity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/single-activity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -201,18 +156,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-homepage.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/header.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-contact.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/single-activity.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/author.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-experience.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-youtube.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-activity.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-experience.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-news.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-youtube.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/author.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-contact.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-homepage.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/single-activity.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/page-landing.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.scss" />
       </list>
@@ -276,8 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,32 +326,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template-parts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lowcarbon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lowcarbon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lowcarbon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -428,12 +356,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,6 +375,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/lowcarbon/js" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/lowcarbon" />
       <recent name="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images" />
       <recent name="$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/fonts" />
       <recent name="D:\lowcarbon\wp-content\themes\lowcarbon\assets\images" />
@@ -506,7 +438,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464795484380</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1465610805268</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1465610805268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -516,7 +454,7 @@
     <frame x="0" y="23" width="1920" height="1019" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21618743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22257721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.5063898" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,198 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-landing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="148" column="34" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#11#383#0" expanded="false" />
-            <element signature="e#395#773#0" expanded="false" />
-            <element signature="e#780#807#0" expanded="false" />
-            <element signature="e#822#1025#0" expanded="false" />
-            <element signature="e#1041#1101#0" expanded="false" />
-            <element signature="e#1110#1156#0" expanded="false" />
-            <element signature="e#1162#1386#0" expanded="false" />
-            <element signature="e#1362#1384#0" expanded="false" />
-            <element signature="e#1391#1552#0" expanded="false" />
-            <element signature="e#1450#1518#0" expanded="false" />
-            <element signature="e#1484#1514#0" expanded="false" />
-            <element signature="e#1525#1550#0" expanded="false" />
-            <element signature="e#1563#1869#0" expanded="false" />
-            <element signature="e#1595#1867#0" expanded="false" />
-            <element signature="e#1642#1863#0" expanded="false" />
-            <element signature="e#1770#1818#0" expanded="false" />
-            <element signature="e#1827#1857#0" expanded="false" />
-            <element signature="e#1879#1971#0" expanded="false" />
-            <element signature="e#1975#2000#0" expanded="false" />
-            <element signature="e#2009#2105#0" expanded="false" />
-            <element signature="e#2112#2323#0" expanded="false" />
-            <element signature="e#2236#2321#0" expanded="false" />
-            <element signature="e#2331#2379#0" expanded="false" />
-            <element signature="e#2383#2402#0" expanded="false" />
-            <element signature="e#2406#2425#0" expanded="false" />
-            <element signature="e#2429#2485#0" expanded="false" />
-            <element signature="e#2498#2549#0" expanded="false" />
-            <element signature="e#2552#2630#0" expanded="false" />
-            <element signature="e#2579#2628#0" expanded="false" />
-            <element signature="e#2639#2687#0" expanded="false" />
-            <element signature="e#2697#2804#0" expanded="false" />
-            <element signature="e#2814#2841#0" expanded="false" />
-            <element signature="e#2855#2931#0" expanded="false" />
-            <element signature="e#2940#3047#0" expanded="false" />
-            <element signature="e#3060#3085#0" expanded="false" />
-            <element signature="e#3098#3259#0" expanded="false" />
-            <element signature="e#3270#3313#0" expanded="false" />
-            <element signature="e#3323#3348#0" expanded="false" />
-            <element signature="e#3360#3379#0" expanded="false" />
-            <element signature="e#3560#3664#0" expanded="false" />
-            <element signature="e#3673#3699#0" expanded="false" />
-            <element signature="e#3964#4007#0" expanded="false" />
-            <element signature="e#4024#4120#0" expanded="false" />
-            <element signature="e#4142#4219#0" expanded="false" />
-            <element signature="e#4231#4449#0" expanded="false" />
-            <element signature="e#4311#4387#0" expanded="false" />
-            <element signature="e#4398#4447#0" expanded="false" />
-            <element signature="e#4453#4552#0" expanded="false" />
-            <element signature="e#4498#4550#0" expanded="false" />
-            <element signature="e#4781#4871#0" expanded="false" />
-            <element signature="e#4877#4932#0" expanded="false" />
-            <element signature="e#4951#4992#0" expanded="false" />
-            <element signature="e#5001#5108#0" expanded="false" />
-            <element signature="e#5117#5260#0" expanded="false" />
-            <element signature="e#5207#5258#0" expanded="false" />
-            <element signature="e#5271#5551#0" expanded="false" />
-            <element signature="e#5322#5461#0" expanded="false" />
-            <element signature="e#5421#5457#0" expanded="false" />
-            <element signature="e#5471#5548#0" expanded="false" />
-            <element signature="e#5761#5827#0" expanded="false" />
-            <element signature="e#5843#5897#0" expanded="false" />
-            <element signature="e#6370#6467#0" expanded="false" />
-            <element signature="e#6475#6536#0" expanded="false" />
-            <element signature="e#6561#6669#0" expanded="false" />
-            <element signature="e#6706#6895#0" expanded="false" />
-            <element signature="e#6915#6990#0" expanded="false" />
-            <element signature="e#7048#7075#0" expanded="false" />
-            <element signature="e#7168#7623#0" expanded="false" />
-            <element signature="e#7250#7617#0" expanded="false" />
-            <element signature="e#7422#7503#0" expanded="false" />
-            <element signature="e#7524#7564#0" expanded="false" />
-            <element signature="e#7575#7609#0" expanded="false" />
-            <element signature="e#7635#7684#0" expanded="false" />
-            <element signature="e#7701#7747#0" expanded="false" />
-            <element signature="e#7763#7808#0" expanded="false" />
-            <element signature="e#7814#7840#0" expanded="false" />
-            <element signature="e#7850#7878#0" expanded="false" />
-            <element signature="e#7884#7944#0" expanded="false" />
-            <element signature="e#7950#8010#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-landing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#11#383#0" expanded="false" />
-            <element signature="e#395#773#0" expanded="false" />
-            <element signature="e#780#807#0" expanded="false" />
-            <element signature="e#822#1025#0" expanded="false" />
-            <element signature="e#1041#1101#0" expanded="false" />
-            <element signature="e#1110#1156#0" expanded="false" />
-            <element signature="e#1162#1386#0" expanded="false" />
-            <element signature="e#1362#1384#0" expanded="false" />
-            <element signature="e#1391#1552#0" expanded="false" />
-            <element signature="e#1450#1518#0" expanded="false" />
-            <element signature="e#1484#1514#0" expanded="false" />
-            <element signature="e#1525#1550#0" expanded="false" />
-            <element signature="e#1563#1869#0" expanded="false" />
-            <element signature="e#1595#1867#0" expanded="false" />
-            <element signature="e#1642#1863#0" expanded="false" />
-            <element signature="e#1770#1818#0" expanded="false" />
-            <element signature="e#1827#1857#0" expanded="false" />
-            <element signature="e#1879#1971#0" expanded="false" />
-            <element signature="e#1975#2000#0" expanded="false" />
-            <element signature="e#2009#2105#0" expanded="false" />
-            <element signature="e#2112#2323#0" expanded="false" />
-            <element signature="e#2236#2321#0" expanded="false" />
-            <element signature="e#2331#2379#0" expanded="false" />
-            <element signature="e#2383#2402#0" expanded="false" />
-            <element signature="e#2406#2425#0" expanded="false" />
-            <element signature="e#2429#2485#0" expanded="false" />
-            <element signature="e#2498#2549#0" expanded="false" />
-            <element signature="e#2552#2630#0" expanded="false" />
-            <element signature="e#2579#2628#0" expanded="false" />
-            <element signature="e#2639#2687#0" expanded="false" />
-            <element signature="e#2697#2804#0" expanded="false" />
-            <element signature="e#2814#2841#0" expanded="false" />
-            <element signature="e#2855#2931#0" expanded="false" />
-            <element signature="e#2940#3047#0" expanded="false" />
-            <element signature="e#3060#3085#0" expanded="false" />
-            <element signature="e#3098#3259#0" expanded="false" />
-            <element signature="e#3270#3313#0" expanded="false" />
-            <element signature="e#3323#3348#0" expanded="false" />
-            <element signature="e#3360#3379#0" expanded="false" />
-            <element signature="e#3560#3664#0" expanded="false" />
-            <element signature="e#3673#3699#0" expanded="false" />
-            <element signature="e#3964#4007#0" expanded="false" />
-            <element signature="e#4024#4120#0" expanded="false" />
-            <element signature="e#4142#4219#0" expanded="false" />
-            <element signature="e#4231#4449#0" expanded="false" />
-            <element signature="e#4311#4387#0" expanded="false" />
-            <element signature="e#4398#4447#0" expanded="false" />
-            <element signature="e#4453#4552#0" expanded="false" />
-            <element signature="e#4498#4550#0" expanded="false" />
-            <element signature="e#4781#4871#0" expanded="false" />
-            <element signature="e#4877#4932#0" expanded="false" />
-            <element signature="e#4951#4992#0" expanded="false" />
-            <element signature="e#5001#5108#0" expanded="false" />
-            <element signature="e#5117#5260#0" expanded="false" />
-            <element signature="e#5207#5258#0" expanded="false" />
-            <element signature="e#5271#5551#0" expanded="false" />
-            <element signature="e#5322#5461#0" expanded="false" />
-            <element signature="e#5421#5457#0" expanded="false" />
-            <element signature="e#5471#5548#0" expanded="false" />
-            <element signature="e#5761#5827#0" expanded="false" />
-            <element signature="e#5843#5897#0" expanded="false" />
-            <element signature="e#6370#6467#0" expanded="false" />
-            <element signature="e#6475#6536#0" expanded="false" />
-            <element signature="e#6561#6669#0" expanded="false" />
-            <element signature="e#6706#6895#0" expanded="false" />
-            <element signature="e#6915#6990#0" expanded="false" />
-            <element signature="e#7048#7075#0" expanded="false" />
-            <element signature="e#7168#7623#0" expanded="false" />
-            <element signature="e#7250#7617#0" expanded="false" />
-            <element signature="e#7422#7503#0" expanded="false" />
-            <element signature="e#7524#7564#0" expanded="false" />
-            <element signature="e#7575#7609#0" expanded="false" />
-            <element signature="e#7635#7684#0" expanded="false" />
-            <element signature="e#7701#7747#0" expanded="false" />
-            <element signature="e#7763#7808#0" expanded="false" />
-            <element signature="e#7814#7840#0" expanded="false" />
-            <element signature="e#7850#7878#0" expanded="false" />
-            <element signature="e#7884#7944#0" expanded="false" />
-            <element signature="e#7950#8010#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -945,20 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1368301">
@@ -994,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.0">
-          <caret line="58" column="14" selection-start-line="52" selection-start-column="8" selection-end-line="58" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/images/head-bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1013,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/single-activity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02736602">
@@ -1027,145 +745,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/author.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/archive.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="e#2839#2952#0#PHP" expanded="false" />
-            <element signature="e#3013#4334#0#PHP" expanded="false" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-homepage.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.725491">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7662486">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-experience.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="110" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="151" />
+        <state vertical-scroll-proportion="0.3340935">
+          <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
           <folding>
-            <element signature="e#2519#2599#0#PHP" expanded="false" />
+            <element signature="e#3692#3772#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8506271">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-youtube.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="155" selection-start-line="37" selection-start-column="155" selection-end-line="37" selection-end-column="155" />
-          <folding>
-            <element signature="e#1347#1418#0#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.19612315">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/archive-activity.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19156215">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25541618">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27822122">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87571263">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/single-activity.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/page-landing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24287343">
-          <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="153" column="34" selection-start-line="153" selection-start-column="34" selection-end-line="153" selection-end-column="34" />
+          <folding>
+            <element signature="e#7523#7624#0#PHP" expanded="false" />
+            <element signature="e#7721#8870#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/lowcarbon/assets/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5587229">
-          <caret line="377" column="17" selection-start-line="377" selection-start-column="17" selection-end-line="377" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.31242874">
+          <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
           <folding>
             <element signature="e#11#383#0" expanded="false" />
-            <element signature="e#395#773#0" expanded="false" />
-            <element signature="e#780#807#0" expanded="false" />
-            <element signature="e#822#1025#0" expanded="false" />
-            <element signature="e#1041#1101#0" expanded="false" />
-            <element signature="e#1110#1156#0" expanded="false" />
-            <element signature="e#1162#1386#0" expanded="false" />
-            <element signature="e#1362#1384#0" expanded="false" />
-            <element signature="e#1391#1552#0" expanded="false" />
-            <element signature="e#1450#1518#0" expanded="false" />
-            <element signature="e#1484#1514#0" expanded="false" />
-            <element signature="e#1525#1550#0" expanded="false" />
-            <element signature="e#1563#1869#0" expanded="false" />
-            <element signature="e#1595#1867#0" expanded="false" />
-            <element signature="e#1642#1863#0" expanded="false" />
-            <element signature="e#1770#1818#0" expanded="false" />
-            <element signature="e#1827#1857#0" expanded="false" />
-            <element signature="e#1879#1971#0" expanded="false" />
-            <element signature="e#1975#2000#0" expanded="false" />
-            <element signature="e#2009#2105#0" expanded="false" />
-            <element signature="e#2112#2323#0" expanded="false" />
-            <element signature="e#2236#2321#0" expanded="false" />
-            <element signature="e#2331#2379#0" expanded="false" />
-            <element signature="e#2383#2402#0" expanded="false" />
-            <element signature="e#2406#2425#0" expanded="false" />
-            <element signature="e#2429#2485#0" expanded="false" />
-            <element signature="e#2498#2549#0" expanded="false" />
-            <element signature="e#2552#2630#0" expanded="false" />
-            <element signature="e#2579#2628#0" expanded="false" />
-            <element signature="e#2639#2687#0" expanded="false" />
-            <element signature="e#2697#2804#0" expanded="false" />
-            <element signature="e#2814#2841#0" expanded="false" />
-            <element signature="e#2855#2931#0" expanded="false" />
-            <element signature="e#2940#3047#0" expanded="false" />
-            <element signature="e#3060#3085#0" expanded="false" />
-            <element signature="e#3098#3259#0" expanded="false" />
-            <element signature="e#3270#3313#0" expanded="false" />
-            <element signature="e#3323#3348#0" expanded="false" />
-            <element signature="e#3360#3379#0" expanded="false" />
-            <element signature="e#3560#3664#0" expanded="false" />
-            <element signature="e#3673#3699#0" expanded="false" />
-            <element signature="e#3964#4007#0" expanded="false" />
-            <element signature="e#4024#4120#0" expanded="false" />
-            <element signature="e#4142#4219#0" expanded="false" />
-            <element signature="e#4231#4449#0" expanded="false" />
-            <element signature="e#4311#4387#0" expanded="false" />
-            <element signature="e#4398#4447#0" expanded="false" />
-            <element signature="e#4453#4552#0" expanded="false" />
-            <element signature="e#4498#4550#0" expanded="false" />
-            <element signature="e#4781#4871#0" expanded="false" />
-            <element signature="e#4877#4932#0" expanded="false" />
-            <element signature="e#4951#4992#0" expanded="false" />
-            <element signature="e#5001#5108#0" expanded="false" />
-            <element signature="e#5117#5260#0" expanded="false" />
-            <element signature="e#5207#5258#0" expanded="false" />
-            <element signature="e#5271#5551#0" expanded="false" />
-            <element signature="e#5322#5461#0" expanded="false" />
-            <element signature="e#5421#5457#0" expanded="false" />
-            <element signature="e#5471#5548#0" expanded="false" />
-            <element signature="e#5761#5827#0" expanded="false" />
-            <element signature="e#5843#5897#0" expanded="false" />
-            <element signature="e#6370#6467#0" expanded="false" />
-            <element signature="e#6475#6536#0" expanded="false" />
-            <element signature="e#6561#6669#0" expanded="false" />
-            <element signature="e#6706#6895#0" expanded="false" />
-            <element signature="e#6915#6990#0" expanded="false" />
-            <element signature="e#7048#7075#0" expanded="false" />
-            <element signature="e#7168#7623#0" expanded="false" />
-            <element signature="e#7250#7617#0" expanded="false" />
-            <element signature="e#7422#7503#0" expanded="false" />
-            <element signature="e#7524#7564#0" expanded="false" />
-            <element signature="e#7575#7609#0" expanded="false" />
-            <element signature="e#7635#7684#0" expanded="false" />
-            <element signature="e#7701#7747#0" expanded="false" />
-            <element signature="e#7763#7808#0" expanded="false" />
-            <element signature="e#7814#7840#0" expanded="false" />
-            <element signature="e#7850#7878#0" expanded="false" />
-            <element signature="e#7884#7944#0" expanded="false" />
-            <element signature="e#7950#8010#0" expanded="false" />
+            <element signature="e#860#1063#0" expanded="false" />
+            <element signature="e#1079#1139#0" expanded="false" />
+            <element signature="e#1148#1194#0" expanded="false" />
+            <element signature="e#1200#1424#0" expanded="false" />
+            <element signature="e#1400#1422#0" expanded="false" />
+            <element signature="e#1429#1590#0" expanded="false" />
+            <element signature="e#1488#1556#0" expanded="false" />
+            <element signature="e#1522#1552#0" expanded="false" />
+            <element signature="e#1563#1588#0" expanded="false" />
+            <element signature="e#1808#1856#0" expanded="false" />
+            <element signature="e#1865#1895#0" expanded="false" />
+            <element signature="e#1917#2009#0" expanded="false" />
+            <element signature="e#2013#2038#0" expanded="false" />
+            <element signature="e#2047#2143#0" expanded="false" />
+            <element signature="e#2150#2361#0" expanded="false" />
+            <element signature="e#2274#2359#0" expanded="false" />
+            <element signature="e#2369#2417#0" expanded="false" />
+            <element signature="e#2421#2440#0" expanded="false" />
+            <element signature="e#2444#2463#0" expanded="false" />
+            <element signature="e#2467#2523#0" expanded="false" />
+            <element signature="e#2536#2587#0" expanded="false" />
+            <element signature="e#2590#2668#0" expanded="false" />
+            <element signature="e#2617#2666#0" expanded="false" />
+            <element signature="e#2677#2725#0" expanded="false" />
+            <element signature="e#2735#2842#0" expanded="false" />
+            <element signature="e#2852#2879#0" expanded="false" />
+            <element signature="e#2893#2969#0" expanded="false" />
+            <element signature="e#2978#3085#0" expanded="false" />
+            <element signature="e#3098#3123#0" expanded="false" />
+            <element signature="e#3136#3297#0" expanded="false" />
+            <element signature="e#3308#3351#0" expanded="false" />
+            <element signature="e#3361#3386#0" expanded="false" />
+            <element signature="e#3398#3417#0" expanded="false" />
+            <element signature="e#3598#3702#0" expanded="false" />
+            <element signature="e#3711#3737#0" expanded="false" />
+            <element signature="e#4002#4045#0" expanded="false" />
+            <element signature="e#4062#4158#0" expanded="false" />
+            <element signature="e#4180#4257#0" expanded="false" />
+            <element signature="e#4269#4487#0" expanded="false" />
+            <element signature="e#4349#4425#0" expanded="false" />
+            <element signature="e#4436#4485#0" expanded="false" />
+            <element signature="e#4491#4590#0" expanded="false" />
+            <element signature="e#4536#4588#0" expanded="false" />
+            <element signature="e#4819#4909#0" expanded="false" />
+            <element signature="e#4915#4970#0" expanded="false" />
+            <element signature="e#4989#5030#0" expanded="false" />
+            <element signature="e#5039#5146#0" expanded="false" />
+            <element signature="e#5245#5296#0" expanded="false" />
+            <element signature="e#5309#5589#0" expanded="false" />
+            <element signature="e#5360#5499#0" expanded="false" />
+            <element signature="e#5459#5495#0" expanded="false" />
+            <element signature="e#5509#5586#0" expanded="false" />
+            <element signature="e#5886#5940#0" expanded="false" />
+            <element signature="e#6413#6510#0" expanded="false" />
+            <element signature="e#6518#6579#0" expanded="false" />
+            <element signature="e#6604#6712#0" expanded="false" />
+            <element signature="e#6749#6938#0" expanded="false" />
+            <element signature="e#6958#7033#0" expanded="false" />
+            <element signature="e#7091#7118#0" expanded="false" />
+            <element signature="e#7566#7606#0" expanded="false" />
+            <element signature="e#7617#7651#0" expanded="false" />
+            <element signature="e#7677#7726#0" expanded="false" />
+            <element signature="e#7743#7789#0" expanded="false" />
+            <element signature="e#7805#7850#0" expanded="false" />
+            <element signature="e#7856#7882#0" expanded="false" />
+            <element signature="e#7892#7920#0" expanded="false" />
+            <element signature="e#7926#7986#0" expanded="false" />
+            <element signature="e#7992#8052#0" expanded="false" />
           </folding>
         </state>
       </provider>

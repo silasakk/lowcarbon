@@ -11,9 +11,7 @@
 
 ?>
 
-<div class="gp">
-	<img src="<?php echo get_template_directory_uri()?>/assets/images/bottom-web.jpg" class="gp-foot" alt="">
-</div>
+
 
 <div class="footer">
 	<div class="container">
@@ -29,6 +27,7 @@
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/assets/js/jquery-1.12.3.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/assets/js/jquery.infinitescroll.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/assets/js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/assets/js/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/assets/js/packery.pkgd.min.js"></script>
@@ -36,6 +35,10 @@
 
 <script>
 	$(window).load(function(){
+
+		$('#carousel-example-generic').carousel();
+
+
 		var $container = $('.iso');
 
 		$('.sc-select img').on( 'click',  function() {

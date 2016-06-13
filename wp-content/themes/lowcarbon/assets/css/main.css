@@ -11,7 +11,10 @@
   font-weight: normal;
   font-style: normal; }
 body {
-  background: #89cbbb; }
+  background: #bde5ef; }
+
+.intro-3 img {
+  margin-bottom: 10px; }
 
 .menu-mobile {
   display: inline-block;
@@ -300,9 +303,9 @@ a {
 
 @media (min-width: 768px) {
   .intro-3 .btn {
-    margin-top: -30px;
     position: relative;
-    z-index: 2; }
+    z-index: 2;
+    margin: 0 15px; }
 
   .intro-4 .btn {
     position: absolute;
@@ -370,14 +373,14 @@ a {
       padding: 0;
       list-style: none; }
       .nav-menu ul li {
-        padding: 10px;
+        padding: 10px 20px;
         border-bottom: none;
-        border-right: 1px solid #174e77;
+        border-right: 1px solid #fff;
         display: inline-block;
         font-size: 20px; }
         .nav-menu ul li:first-child {
           border-top: none;
-          border-right: 1px solid #174e77; }
+          border-right: 1px solid #fff; }
         .nav-menu ul li:last-child {
           border-right: none; }
         .nav-menu ul li a {

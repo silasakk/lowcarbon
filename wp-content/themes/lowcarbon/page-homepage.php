@@ -16,7 +16,62 @@ get_header();?>
 
     <div class="container section" >
         <div class="banner effect7">
-            <img class="img-responsive" src="<?php echo get_template_directory_uri()?>/assets/images/banner.jpg" alt="">
+            <?php
+
+            $image = get_field('banner',668);
+            $image2 = get_field('banner_2',668);
+            $image3 = get_field('banner_3',668);
+
+            ?>
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <?php if($image):?>
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <?php endif; ?>
+
+                    <?php if($image2):?>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <?php endif; ?>
+
+                    <?php if($image3):?>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <?php endif; ?>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+
+                    <?php if($image):?>
+                        <div class="item active">
+                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive" />
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if($image2):?>
+                        <div class="item ">
+                            <img src="<?php echo $image2['url']; ?>" alt="<?php echo $image2['alt']; ?>" class="img-responsive" />
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if($image3):?>
+                        <div class="item ">
+                            <img src="<?php echo $image3['url']; ?>" alt="<?php echo $image3['alt']; ?>" class="img-responsive" />
+                        </div>
+                    <?php endif; ?>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+
         </div>
         <div class="tp">
             <div class="btn btn-top-left">TOP RANK</div>

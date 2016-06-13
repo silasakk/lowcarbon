@@ -31,13 +31,17 @@
 <img src="<?php echo get_template_directory_uri()?>/assets/images/top-web.jpg" class="gp-head" alt="">
 <div class="header">
     <div class="container">
+        <div class="then pull-right" style="color: #fff;margin-top: 15px;" >
+            <a style="color: #fff" href="http://lowcarbondestination.com/activity/castaway-low-carbon-koh-mak/">EN</a> / <a style="color: #fff" href="<?php echo site_url()?>">TH</a>
+        </div>
         <div class="nav-menu">
             <a href="javascript:;" onclick="$('.nav-menu-list').slideToggle()" class="menu-mobile"><img src="<?php echo get_template_directory_uri()?>/assets/images/round.png" alt=""></a>
             <div class="clearfix"></div>
             <ul class="nav-menu-list">
                 <li><a href="<?php echo site_url();?>">Home</a></li>
                 <li><a href="<?php echo site_url('experience') ?>">Experience</a></li>
-                <li><a href="<?php echo site_url('activity')?>">News & Activity</a></li>
+                <li><a href="<?php echo site_url('news')?>">News</a></li>
+                <li><a href="<?php echo site_url('activity')?>">Activity</a></li>
                 <li><a href="<?php echo site_url('youtube') ?>">Youtube</a></li>
                 <li><a href="<?php echo site_url('contact') ?>">Contact Us & About Us</a></li>
             </ul>

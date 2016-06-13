@@ -18,13 +18,61 @@ get_header(); ?>
         <div class="banner effect7">
             <?php
 
-            $image = get_field('banner');
+            $image = get_field('banner',668);
+            $image2 = get_field('banner_2',668);
+            $image3 = get_field('banner_3',668);
 
-            if( !empty($image) ): ?>
+            ?>
 
-                <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive" />
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <?php if($image):?>
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <?php endif; ?>
 
-            <?php endif; ?>
+                    <?php if($image2):?>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <?php endif; ?>
+
+                    <?php if($image3):?>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <?php endif; ?>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+
+                    <?php if($image):?>
+                        <div class="item active">
+                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive" />
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if($image2):?>
+                        <div class="item ">
+                            <img src="<?php echo $image2['url']; ?>" alt="<?php echo $image2['alt']; ?>" class="img-responsive" />
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if($image3):?>
+                        <div class="item ">
+                            <img src="<?php echo $image3['url']; ?>" alt="<?php echo $image3['alt']; ?>" class="img-responsive" />
+                        </div>
+                    <?php endif; ?>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
 
         </div>
 
@@ -35,6 +83,8 @@ get_header(); ?>
             <a href="http://lowcarbondestination.blogspot.com/"><img src="<?php echo get_template_directory_uri()?>/assets/images/blog.png" alt=""></a>
 
         </div>
+
+
 
         <div class="intro-1">
 
@@ -53,6 +103,69 @@ get_header(); ?>
                     </div>
                 </div>
 
+
+
+
+
+
+        </div>
+
+        <div class="intro-3">
+            <div class="col-sm-12">
+                <div class="box">
+                    <div class="row">
+                        <div class="col-sm-6 text-center">
+                            <img style="display: inline-block" src="<?php echo get_template_directory_uri()?>/assets/images/t1.png" class="img-responsive"  alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <h1 style="color: #0c7f63;font-size: 30px;text-align: right">ผลงานที่ผ่านมา</h1>
+                            <p style="color: #022840;font-size: 26px;text-align: center">
+                                พบกับเรื่องราวกิจกรรมดีๆ ของปี 2557-2558
+                                กับโครงการ Low Carbon Destination
+                                กิจกรรมการท่องเที่ยวในแบบที่โลกจะรักคุณมากขึ้น
+                            </p>
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-3">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/images/m1.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-3">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/images/m2.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-3">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/images/m3.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-3">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/images/m4.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-3">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/images/m5.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-3">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/images/m6.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-3">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/images/m7.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-3">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/images/m8.png" class="img-responsive" alt="">
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="clearfix"></div>
+                                <a href="<?php echo site_url('homepage')?>" class="btn btn-primary pull-right" style="">
+                                    Read More >>
+                                </a>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-1">
             <?php
 
             $args = array(
@@ -94,34 +207,6 @@ get_header(); ?>
             <?php else : ?>
                 <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
             <?php endif; ?>
-
-
-
-
-        </div>
-
-        <div class="intro-3">
-            <div class="col-sm-12">
-                <div class="box">
-                    <div class="row">
-                        <div class="col-sm-5 text-center">
-                            <img style="display: inline-block" src="<?php echo get_template_directory_uri()?>/assets/images/intro3-left.jpg" class="img-responsive"  alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <p>
-                                จบไปแล้วกับกิจกรรม สุดยอดบล็อกเกอร์อาสารักษ์โลก
-                                เรามาดูสิ่งที่บล็อกเกอร์แต่ละคนพบเจอ
-                                กับการใช้ชีวิตบนเกาะหมากแบบโลว์คาร์บอนกัน
-                            </p>
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/into3-right.png" class="img-responsive" alt="">
-                            <a href="<?php echo site_url('homepage')?>" class="btn btn-primary pull-right" style="">
-                                Read More >>
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <div class="intro-4">
@@ -129,7 +214,7 @@ get_header(); ?>
                 <div class="box">
                     <div class="row">
                         <div class="col-sm-7">
-                            <p>
+                            <p style="color: #022840;font-size: 26px;text-align: center;padding-top: 15px;">
                                 Low Carbaon @ Kohmak ร่วมรักษ์โลก
                                 ในวัน Earth Day
                                 สิ้นสุดกิจกรรมกันแล้วกับภารกิจของเหล่า Blogger
@@ -144,11 +229,11 @@ get_header(); ?>
                             </div>
                         </div>
 
-                        <div class="col-sm-12">
-                            <a href="<?php echo site_url('youtube')?>" class="btn btn-primary" style="">
+                        <!--<div class="col-sm-12">
+                            <a href="<?php /*echo site_url('youtube')*/?>" class="btn btn-primary" style="">
                                 Read More >>
                             </a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
