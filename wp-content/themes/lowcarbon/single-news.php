@@ -72,7 +72,7 @@
         <div class="con-design">
             <div class="single-panel box">
                 <h1 class="head-bg">
-                  Activity
+                    News
                 </h1>
                 <?php the_post();?>
                 <div class="col-sm-12">
